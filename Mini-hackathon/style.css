@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.logo{
+    font-family: "Roboto", sans-serif;
+}
+
+.upperheader{
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+.logofont{
+    display: flex;
+}
+
+
+
+.header-text{
+    margin-left: 30%;
+}
+
+.header-padding{
+    padding: 80px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+
+}
+
+.header-padding i{
+    color: red;
+    font-size: 50px;
+}
+
+.header-padding a{
+    font-size: 20px;
+}
+
+.header-padding p{
+    font-size: 20px;
+    margin-left: 50px;
+
+}
+
+.header-padding span{
+    font-size: 20px;
+    padding: 14px;
+    background-color: #DE3163	;
+}
+
+.bannertext h1{
+    font-size: 4.5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.bannercontainer{
+    background: url(assets/bg_1\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin-left: 40px;
+    margin-top: 40px;
+    
+}
+
+.bannertext p{
+    font-size: 20px;
+    opacity: 0.7;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.bannertext button{
+    padding: 14px;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.bannerimg{
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+footer{
+    background-color: #DE3163;
+}
+
+@media (max-width:600){
+    .bannercontainer{
+        background-size: cover;
+    }
+
+  
+
+}
